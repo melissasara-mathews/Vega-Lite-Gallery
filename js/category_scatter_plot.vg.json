@@ -23,6 +23,18 @@
       "field": "score",
       "type": "quantitative",
       "title": "Score (%)"
+    },
+    "tooltip": [
+    {
+        "field": "hours",
+        "type": "quantitative",
+        "title": "Study Hours"
+    },
+    {
+        "field": "score",
+        "type": "quantitative",
+        "title": "Score"
     }
+    ]
   }
 }

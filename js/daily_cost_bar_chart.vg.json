@@ -21,6 +21,18 @@
       "field": "cost",
       "type": "quantitative",
       "title": "Daily Cost ($)"
+    },
+    "tooltip": [
+    {
+        "field": "category",
+        "type": "nominal",
+        "title": "Category"
+    },
+    {
+        "field": "cost",
+        "type": "quantitative",
+        "title": "Daily Cost"
     }
+    ]
   }
 }
