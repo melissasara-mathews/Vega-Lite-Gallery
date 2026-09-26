@@ -1,0 +1,27 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple scatter plot showing study time and score.",
+  "data": {
+    "values": [
+      {"hours": 1, "score": 55},
+      {"hours": 2, "score": 62},
+      {"hours": 3, "score": 68},
+      {"hours": 4, "score": 74},
+      {"hours": 5, "score": 81},
+      {"hours": 6, "score": 88}
+    ]
+  },
+  "mark": "point",
+  "encoding": {
+    "x": {
+      "field": "hours",
+      "type": "quantitative",
+      "title": "Study Hours"
+    },
+    "y": {
+      "field": "score",
+      "type": "quantitative",
+      "title": "Score"
+    }
+  }
+}
