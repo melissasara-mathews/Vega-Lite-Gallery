@@ -1,6 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "A simple bar chart showing daily costs by category.",
+  "title": "Daily Spending by Category",
   "data": {
     "values": [
       {"category": "Food", "cost": 30},
@@ -19,7 +20,7 @@
     "y": {
       "field": "cost",
       "type": "quantitative",
-      "title": "Daily Cost"
+      "title": "Daily Cost ($)"
     }
   }
 }
