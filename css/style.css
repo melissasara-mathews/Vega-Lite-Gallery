@@ -1,0 +1,43 @@
+html {
+  background-color: #ffd1df;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h1,
+body > p {
+  text-align: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.chart-card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart-card h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+@media (max-width: 800px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
